@@ -39,7 +39,7 @@ export default function updateTransaksi() {
   // Darul Anwar
   async function checkNis(nis) {
     let arrNis = nis.split('')
-    const data = await fetch(`${http}://${host}/api/carisiswa/[nis]?nis=${nis}`)
+    const data = await fetch(`${http}://${host}/api/nis?nis=${nis}`)
     const hasil = await data.json()
     let alert = document.getElementById('checkErrorNis')
     console.log(hasil)
@@ -64,7 +64,7 @@ export default function updateTransaksi() {
   // Nurut Taqwa
   async function checkNis(nis) {
     let arrNis = nis.split('')
-    const data = await fetch(`${http}://${host}/api/carisiswa/[nis]?nis=${nis}`)
+    const data = await fetch(`${http}://${host}/api/nis?nis=${nis}`)
     const hasil = await data.json()
     let alert = document.getElementById('checkErrorNis')
     console.log(hasil)
