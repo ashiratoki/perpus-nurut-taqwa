@@ -21,7 +21,7 @@ export default function cardDetail() {
   const host = typeof window !== 'undefined' && window.location.host ? window.location.host : '';
   const { id } = router.query
   const http = host === 'localhost:3000' ? 'http' : 'https'
-  const url = `${http}://${host}/api/cariklasifikasi/tes?id=${id}`;
+  const url = `${http}://${host}/api/tes?id=${id}`;
 
   const { data, error } = useSWR(url, fetcher);
 

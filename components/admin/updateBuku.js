@@ -92,7 +92,7 @@ export default function updateTransaksi() {
     const data1 = await fetch(`${http}://${host}/api/index_buku?index_buku=${value}`)
     const hasil1 = await data1.json()
     let alert = document.getElementById('checkErrorIndexBuku')
-    // const data2 = await fetch(`${http}://${host}/api/caribuku/[index_buku]?index_buku=${index_buku_lama}`)
+    // const data2 = await fetch(`${http}://${host}/api/?index_buku=${index_buku_lama}`)
     // const hasil2 = await data2.json()
     // console.log(hasil1)
     // console.log(hasil2)
