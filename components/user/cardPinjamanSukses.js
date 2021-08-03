@@ -34,7 +34,7 @@ export default function cardDetail() {
     console.log(data);
 
     return (
-        <div className="col" style={{marginTop:'100px'}}>
+        <div className="col">
             <div className="bs-callout bs-callout-success">
                 <h4>Sukses!</h4>
                 <p className="p-4 bg-primary text-white">Buku ini akan dipinjam<br /><strong>Mohon tunjukkan NIS dan No Index Buku ke Admin</strong></p>
