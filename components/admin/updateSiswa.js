@@ -96,7 +96,7 @@ export default function Register() {
 
   async function submitHandler(e) {
     e.preventDefault()
-    const data = await fetch(`${http}://${host}/api/carisiswa/[nis]?nis=${nis}`)
+    const data = await fetch(`${http}://${host}/api/nis?nis=${nis}`)
     const hasil = await data.json()
     console.log(hasil)
     console.log(nis)
