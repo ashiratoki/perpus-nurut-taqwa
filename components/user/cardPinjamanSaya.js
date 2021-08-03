@@ -43,7 +43,7 @@ export default function CardPinjamanSaya() {
 
   return (
     <>
-    <div className="row" style={{ borderBottomStyle: 'solid', borderBottomColor: 'var(--bs-blue)' }}>
+    <div className="row" style={{ borderBottomStyle: 'solid', borderBottomColor: 'var(--bs-blue)', marginTop:'70px' }}>
                         <h1 style={{ fontSize: 25 }}>RIWAYAT PEMINJAMAN</h1>
     </div>
       {data.map((tblDat, index) => {

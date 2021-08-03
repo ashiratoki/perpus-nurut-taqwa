@@ -77,10 +77,17 @@ export default function CarBukuTerbaru(props) {
             ><b>{cardBuku.judul}</b>
             </h3>
 
-            <span
-              style={{ borderLeftColor: 'rgb(16,11,11)', marginBottom: '-8px' }}
-            ><b>Pengarang : </b>{cardBuku.pengarang} | <b>Penerbit : </b> {cardBuku.penerbit}  <b>Tahun Terbit : </b> {cardBuku.tahun_terbit}
-            </span>
+            <div>
+              <h6 style={{color:'black'}}>
+                <b>Pengarang : </b>{cardBuku.pengarang}
+              </h6>
+              <h6 style={{color:'black'}}>
+                <b>Penerbit : </b> {cardBuku.penerbit}
+              </h6>
+              <h6 style={{color:'black'}}>
+                <b>Tahun Terbit : </b> {cardBuku.tahun_terbit}
+              </h6>
+            </div>          
 
             <p
               className="name"

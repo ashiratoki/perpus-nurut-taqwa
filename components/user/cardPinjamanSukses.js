@@ -34,14 +34,14 @@ export default function cardDetail() {
     console.log(data);
 
     return (
-        <div className="col" style={{marginTop:'100px'}}>
+        <div className="col" style={{}}>
             <div className="bs-callout bs-callout-success">
                 <h4>Sukses!</h4>
                 <p className="p-4 bg-primary text-white">Buku ini akan dipinjam<br /><strong>Mohon tunjukkan NIS dan No Index Buku ke Admin</strong></p>
                 <h1>Judul Buku : {data[0].judul}</h1>
                 <h1>No. Klasifikasi Buku : {data[0].no_klasifikasi}</h1>
                 <p><strong>Buku dengan No Klasifikasi {data[0].no_klasifikasi} ada di rak {data[0].rak} baris ke- {data[0].baris}</strong></p>
-                <Link href="/user/home"><button className="btn btn-primary" type="button" style={{ fontSize: 17, background: 'rgb(210,42,32)' }}>Kembali</button></Link>
+                <Link href="/user/home"><button className="btn btn-primary mt-3 mb-3" type="button" style={{ fontSize: 17, background: 'rgb(210,42,32)' }}>Kembali</button></Link>
             </div>
         </div>
     )

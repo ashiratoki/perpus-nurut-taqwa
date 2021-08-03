@@ -46,7 +46,7 @@ export default function CardCari(props) {
 
 
   return (
-    <div style={{ marginTop: '50px' }}>
+    <div style={{ marginTop: '100px' }}>
       <div className="col-md-6">
 
         <form>
@@ -72,16 +72,16 @@ export default function CardCari(props) {
                 </a>
               </div>
 
-              <div className="col">
-                <h3 className="name">
+              <div className="col" style={{marginTop:'20px'}}>
+                <h3 className="name" style={{color:'black'}}>
                   {cardBuku.judul}
                 </h3>
-                <span>
+                <span style={{color:'black'}}>
                   <b>Tersedia untuk dipinjam : </b> {cardBuku.tersedia} <br/> <b>Penerbit : </b>{cardBuku.penerbit}
-                </span>
-                <p className="description" style={{ marginBottom: 42 }}>
+                </span><br/>
+                <span className="description" style={{ color:'black' }}>
                   <b>Pengarang : </b>{cardBuku.pengarang} <br/> <b> Tahun Terbit : </b> {cardBuku.tahun_terbit}<br />
-                </p>
+                </span>
 
                 <Link href={`/user/detailBuku/?id=${cardBuku.id}`}>
                   <div className=" ">
