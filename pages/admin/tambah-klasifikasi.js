@@ -53,7 +53,7 @@ export default function TambahBuku() {
   //Darul Anwar
   async function checkNoKlasifikasi(value) {
     let arrNK = value.split('')
-    const data = await fetch(`http://${host}/api/no_klasifikasi?no_klasifikasi=${value}`)
+    const data = await fetch(`${http}://${host}/api/no_klasifikasi?no_klasifikasi=${value}`)
     const hasil = await data.json()
     let alert = document.getElementById('checkErrorNoKlasifikasi')
     console.log(hasil)
@@ -79,7 +79,7 @@ export default function TambahBuku() {
     let arrAlphabet = alphabet.split('')
     let number = '1234567890'
     let arrNumber = number.split('')
-    const data = await fetch(`http://${host}/api/no_klasifikasi?no_klasifikasi=${value}`)
+    const data = await fetch(`${http}://${host}/api/no_klasifikasi?no_klasifikasi=${value}`)
     const hasil = await data.json()
     let alert = document.getElementById('checkErrorNoKlasifikasi')
     console.log(hasil)
@@ -111,7 +111,7 @@ export default function TambahBuku() {
     // setSubmitting(true)
     e.preventDefault()
     try {
-      const res = await fetch(`http://${host}/api/create-klasifikasi`, {
+      const res = await fetch(`${http}://${host}/api/create-klasifikasi`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
