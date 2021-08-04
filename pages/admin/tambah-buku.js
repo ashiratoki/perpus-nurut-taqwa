@@ -41,7 +41,7 @@ export default function TambahBuku() {
   //   const hasil = await data.json()
   //   let alert = document.getElementById('checkErrorNoKlasifikasi')
   //   console.log(hasil)
-  //   if(arrNK.length == 5 && arrNK[3] == '.'){
+  //   if(arrNK.length >= 5 && arrNK[3] == '.'){
   //     setNoKlasifikasi(value)
   //     if (hasil.length < 1) {
   //       alert.innerHTML = (`No. Klasifikasi ${value} tidak ada, pastikan menggunakan No. Klasifikasi yang sudah ada`)

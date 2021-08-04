@@ -144,7 +144,7 @@ export default function TambahBuku() {
                   <div className="col" style={{ width: '489.328px' }}>
                     <div className="card shadow mb-3" style={{ width: '516.328px' }}>
                       <div className="card-header py-3">
-                        <p className="text-primary m-0 fw-bold">Tambah Buku</p>
+                        <p className="text-primary m-0 fw-bold">Tambah Klasifikasi</p>
                       </div>
                       <div className="card-body">
                         <form onSubmit={submitHandler}>
