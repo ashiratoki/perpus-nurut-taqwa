@@ -95,7 +95,7 @@ export default function TambahBuku() {
   }
 
   async function checkNoIndexBuku(index_buku) {
-    const data = await fetch(`${http}://${host}/api/caribuku/[index_buku]?index_buku=${index_buku}`)
+    const data = await fetch(`${http}://${host}/api/index_buku?index_buku=${index_buku}`)
     const hasil = await data.json()
     let alert = document.getElementById('checkErrorIndexBuku')
     console.log(hasil)
