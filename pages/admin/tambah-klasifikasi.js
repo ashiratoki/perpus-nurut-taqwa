@@ -87,7 +87,7 @@ export default function TambahBuku() {
     (arrAlphabet.indexOf(arrNK[6])>-1), (arrAlphabet.indexOf(arrNK[7])>-1), (arrAlphabet.indexOf(arrNK[8])>-1),
     (arrNumber.indexOf(arrNK[1])>-1), (arrNumber.indexOf(arrNK[2])>-1), (arrNumber.indexOf(arrNK[3])>-1),
     (arrNumber.indexOf(arrNK[5])>-1))
-    if(arrNK.length > 9 && (arrAlphabet.indexOf(arrNK[0])>-1) && arrNK[4] == '.' 
+    if(arrNK.length >= 9 && (arrAlphabet.indexOf(arrNK[0])>-1) && arrNK[4] == '.' 
         && (arrAlphabet.indexOf(arrNK[6])>-1) && (arrAlphabet.indexOf(arrNK[7])>-1) && (arrAlphabet.indexOf(arrNK[8])>-1)
         && (arrNumber.indexOf(arrNK[1])>-1) && (arrNumber.indexOf(arrNK[2])>-1) && (arrNumber.indexOf(arrNK[3])>-1)
         && (arrNumber.indexOf(arrNK[5])>-1)
