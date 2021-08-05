@@ -17,7 +17,7 @@ export default function footer() {
                             <p>BU RENI +62 812-3279-0730</p>
                         </div>
                         <div className="col-sm-4 col-md-3 item" style={{ background: "#2E8B57;" }}>
-                            <div className="mx-3 d-flex justify-content-between"><img src="../../assets/img/smk.png" style={{ width: 90, margin:'auto' }} /><img src="../../assets/img/stikom.png" style={{ width: 90, margin:'auto' }} /></div>
+                            <div className="mx-3 d-flex justify-content-between"><img src="../../assets/img/smk.png" style={{ width: 90, margin:'auto' }} /><img src="/stikom.png" style={{ width: 90, margin:'auto' }} /></div>
                             
                             {/* <img src="/smk.png" alt="Picture of the author" style={{width:'140px', height:'140px', margin:'auto'}} className="d-flex m-auto"/> */}
                             <h3 style={{ marginBottom: "100px;" }}>HASIL KERJA SAMA DARI SMK NURUT TAQWA & STIKOM PGRI BANYUWANGI</h3>
