@@ -10,7 +10,8 @@ export default function Side() {
 
       {/* link beranda */}
       <Link href='/'><a className="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#">
-     <div className="sidebar-brand-text mx-3"><img src="../../assets/img/smk.png" style={{marginLeft: '0PX', width: 65}} /></div>
+     <div className="sidebar-brand-text mx-3 d-flex justify-content-between"><img src="../../assets/img/smk.png" style={{width: 65}} /></div>
+     <div className="sidebar-brand-text mx-3 d-flex justify-content-between"><img src="../../assets/img/stikom.png" style={{width: 65}} /></div>
       </a></Link>
       
       <span style={{marginRight: 0, borderColor: 'rgb(255,255,255)', color: 'rgb(255,255,255)', marginTop: 6, fontSize: 18, fontFamily: 'Alata, sans-serif'}}>SMK Nurut Taqwa</span>
@@ -18,7 +19,7 @@ export default function Side() {
 
         <li className="nav-item">
             {/* link beranda */}
-          <Link href="/admin/home"><a className="nav-link active" ><i className="fas fa-tachometer-alt" style={{fontSize: 18}} /><span style={{fontSize: 18}}>&nbsp;Dashboard Admin</span></a></Link>
+          <Link href="/admin/home"><a className="nav-link" ><i className="fas fa-tachometer-alt" style={{fontSize: 18}} /><span style={{fontSize: 18}}>&nbsp;Dashboard Admin</span></a></Link>
             {/* link register */}
           <Link href="/admin/register"><a className="nav-link"><i className="cib-openstreetmap" style={{fontSize: 18}} /><span style={{fontSize: 18}}>&nbsp;Register Siswa</span></a></Link>
           
