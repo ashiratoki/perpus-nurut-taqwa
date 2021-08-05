@@ -116,7 +116,7 @@ export default function TambahTransaksi() {
     // console.log(hasil1)
     // console.log(hasil2)
     if (hasil1.length < 1) {
-      alert.innerHTML = (`${value} tidak ada, pastikan menggunakan No. Index yang sudah adar`)
+      alert.innerHTML = (`${value} tidak ada, pastikan menggunakan No. Index yang sudah ada`)
       setIndexBuku('')
       setNoKlasifikasi('')  
     }else{

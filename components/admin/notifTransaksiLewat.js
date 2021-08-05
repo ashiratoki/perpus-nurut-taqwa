@@ -18,7 +18,7 @@ export default function dashboard() {
     }
     return(
         <>
-        <p id="notifTransaksiLewat">Jumlah Transaksi yang sudah melewati tanggal tempo : {data.length}</p>
+        <p id="notifTransaksiLewat">Jumlah Transaksi Belum Kembali yang sudah melewati tanggal tempo peminjaman (Terlambat) : {data.length}</p>
         </>
     )
 }

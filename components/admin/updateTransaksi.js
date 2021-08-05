@@ -5,7 +5,7 @@ import Router, { useRouter } from 'next/router'
 export default function updateTransaksi() {
   const data = []
   const [_nis, setNis] = useState('')
-  const [nama, setNama] = useState('')
+  const [_nama, setNama] = useState('')
   const [_index_buku, setIndexBuku] = useState('')
   const [_no_klasifikasi, setNoKlasifikasi] = useState('')
   const [_tgl_pinjam, setTglPinjam] = useState('')
@@ -13,7 +13,7 @@ export default function updateTransaksi() {
   const [_tgl_kembali, setTglKembali] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const router = useRouter()
-  const { nis, index_buku, no_klasifikasi, tgl_pinjam, tgl_tempo, tgl_kembali, id_transaksi, nisLama, index_buku_lama, no_klasifikasi_lama } = router.query
+  const { nis, index_buku, no_klasifikasi, tgl_pinjam, tgl_tempo, tgl_kembali, id_transaksi, nisLama, index_buku_lama, no_klasifikasi_lama,nama } = router.query
   const host = typeof window !== 'undefined' && window.location.host ? window.location.host : '';
   const http = host === 'localhost:3000' ? 'http' : 'https'
   useEffect(() => {
@@ -33,8 +33,10 @@ export default function updateTransaksi() {
     }
     if (typeof tgl_kembali == 'string') {
       setTglKembali(tgl_kembali)
+    }if (typeof nama == 'string') {
+      setNama(nama)
     }
-  }, [nis, index_buku, no_klasifikasi, tgl_pinjam, tgl_tempo, tgl_kembali, id_transaksi])
+  }, [nis, index_buku, no_klasifikasi, tgl_pinjam, tgl_tempo, tgl_kembali, id_transaksi,nama])
 
   // Darul Anwar
   async function checkNis(nis) {
@@ -246,7 +248,7 @@ export default function updateTransaksi() {
                             <input
                               className="form-control"
                               type="text"
-                              value={nama}
+                              value={_nama}
                               readOnly
                             />
                           </div>

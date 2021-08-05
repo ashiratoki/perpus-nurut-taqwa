@@ -134,7 +134,7 @@ export default function tableTransaksi() {
               <td id={index} >{(tblDat.tgl_kembali == 'belum kembali') ? `Belum Kembali` : <Moment format="DD/MM/YYYY">{tblDat.tgl_kembali}</Moment>}</td>
               <td><div className="btn-group-vertical btn-group-sm">
                 <Link
-                  href={`/admin/update-transaksi?nis=${tblDat.nis}&index_buku=${tblDat.index_buku}&no_klasifikasi=${tblDat.no_klasifikasi}&tgl_pinjam=${tblDat.tgl_pinjam_fix}&tgl_tempo=${tblDat.tgl_tempo_fix}&tgl_kembali=${tblDat.tgl_kembali}&id_transaksi=${tblDat.id_transaksi}&nisLama=${tblDat.nis}&index_buku_lama=${tblDat.index_buku}&no_klasifikasi_lama=${tblDat.no_klasifikasi}`}
+                  href={`/admin/update-transaksi?nis=${tblDat.nis}&index_buku=${tblDat.index_buku}&no_klasifikasi=${tblDat.no_klasifikasi}&tgl_pinjam=${tblDat.tgl_pinjam_fix}&tgl_tempo=${tblDat.tgl_tempo_fix}&tgl_kembali=${tblDat.tgl_kembali}&id_transaksi=${tblDat.id_transaksi}&nisLama=${tblDat.nis}&index_buku_lama=${tblDat.index_buku}&no_klasifikasi_lama=${tblDat.no_klasifikasi}&nama=${tblDat.nama}`}
                 ><button type="button" className="btn btn-primary mb-2">Update</button></Link>
                 <button className="btn btn-primary"
                   disabled={deleting}

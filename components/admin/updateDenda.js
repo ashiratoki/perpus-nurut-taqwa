@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import Router, { useRouter } from 'next/router'
 
 export default function updateDenda() {
-  const [nama, setNama] = useState('')
+  const [_nama, setNama] = useState('')
   const [_nis, setNis] = useState('')
   const [_index_buku, setBuku] = useState('')
   const [_tgl_tempo, setTglTempo] = useState('')
@@ -13,7 +13,7 @@ export default function updateDenda() {
   const [_status, setStatus] = useState('')
   const [submitting, setSubmitting] = useState(false)
   const router = useRouter()
-  const { nis, index_buku, tgl_tempo, tgl_kembali, denda, status, id, nisLama, index_buku_lama } = router.query
+  const { nis, index_buku, tgl_tempo, tgl_kembali, denda, status, id, nisLama, index_buku_lama, nama } = router.query
   const host = typeof window !== 'undefined' && window.location.host ? window.location.host : '';
   const http = host === 'localhost:3000' ? 'http' : 'https'
   useEffect(() => {
@@ -33,6 +33,8 @@ export default function updateDenda() {
       setDenda(denda)
     } if (typeof status == 'string') {
       setStatus(status)
+    } if (typeof nama == 'string') {
+      setNama(nama)
     }
   }, [nis, index_buku, tgl_tempo, tgl_kembali, denda, status, id])
 
@@ -210,7 +212,7 @@ export default function updateDenda() {
                                 <input
                                   className="form-control"
                                   type=" text"
-                                  value={nama}
+                                  value={_nama}
                                   readOnly
                                 />
                               </div>

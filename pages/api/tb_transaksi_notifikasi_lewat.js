@@ -7,7 +7,7 @@ const handler = async (_, res) => {
       DATE_FORMAT(tb_transaksi.tgl_pinjam, '%Y-%m-%d') AS tgl_pinjam_fix,
       DATE_FORMAT(tb_transaksi.tgl_tempo, '%Y-%m-%d') AS tgl_tempo_fix 
       FROM tb_transaksi INNER JOIN tb_siswa ON tb_transaksi.nis=tb_siswa.nis 
-      WHERE DATEDIFF(NOW(), tgl_tempo) < 0  AND tgl_kembali = 'belum kembali';
+      WHERE DATEDIFF(NOW(), tgl_tempo) > 0  AND tgl_kembali = 'belum kembali';
     `)
   
       return res.json(results)

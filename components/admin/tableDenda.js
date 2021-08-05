@@ -131,7 +131,7 @@ export default function tableDenda() {
               <td>{tblDat.status}</td>
               <td>
                 <Link
-                  href={`/admin/update-denda/?nis=${tblDat.nis}&index_buku=${tblDat.index_buku}&tgl_tempo=${tblDat.tgl_tempo_fix}&tgl_kembali=${tblDat.tgl_kembali_fix}&denda=${tblDat.denda}&status=${tblDat.status}&id=${tblDat.id_denda}&nisLama=${tblDat.nis}&index_buku_lama=${tblDat.index_buku}`}>
+                  href={`/admin/update-denda/?nis=${tblDat.nis}&index_buku=${tblDat.index_buku}&tgl_tempo=${tblDat.tgl_tempo_fix}&tgl_kembali=${tblDat.tgl_kembali_fix}&denda=${tblDat.denda}&status=${tblDat.status}&id=${tblDat.id_denda}&nisLama=${tblDat.nis}&index_buku_lama=${tblDat.index_buku}&nama=${tblDat.nama}`}>
                   <button
                     className="btn btn-primary"
                     id="updateButton"
