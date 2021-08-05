@@ -14,7 +14,7 @@ async function fetcher(url) {
 export default function CarBukuTerbaru(props) {
   const [searchTerm, setSearchTerm] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
-  const [postsPerPage, setPostsPerPage] = useState(10)
+  const [postsPerPage, setPostsPerPage] = useState(9)
   const host = typeof window !== 'undefined' && window.location.host ? window.location.host : '';
   const http = host === 'localhost:3000' ? 'http' : 'https'
 
