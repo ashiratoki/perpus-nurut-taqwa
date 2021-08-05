@@ -20,7 +20,7 @@ export default function footer() {
                             <div className="mx-3 d-flex justify-content-between"><img src="../../assets/img/smk.png" style={{ width: 90, margin:'auto' }} /><img src="/stikom.png" style={{ width: 90, margin:'auto' }} /></div>
                             
                             {/* <img src="/smk.png" alt="Picture of the author" style={{width:'140px', height:'140px', margin:'auto'}} className="d-flex m-auto"/> */}
-                            <h3 style={{ marginBottom: "100px;" }}>HASIL KERJA SAMA DARI SMK NURUT TAQWA & STIKOM PGRI BANYUWANGI</h3>
+                            <h3 style={{ marginBottom: "100px;" }}>Hasil Kerja Sama dar DARI SMK NURUT TAQWA & STIKOM PGRI BANYUWANGI</h3>
                         </div>
                     </div>
                     <div className="row" style={{ background: "#2E8B57;" }}>
