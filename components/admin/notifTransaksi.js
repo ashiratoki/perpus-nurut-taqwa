@@ -18,7 +18,7 @@ export default function dashboard() {
     }
     return(
         <>
-        <p id="notifTransaksi">Jumlah Transaksi Belum Kembali yang hampir mendekati tanggal tempo peminjaman : {data.length}</p>
+        <p id="notifTransaksi">Jumlah Peminjaman Belum Kembali yang hampir mendekati tanggal tempo peminjaman : {data.length}</p>
         </>
     )
 }

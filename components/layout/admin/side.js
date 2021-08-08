@@ -31,7 +31,7 @@ export default function Side() {
 
           <div className="dropdown-menu">
 
-            <Link href="/admin/tambah-transaksi"><a className="dropdown-item" style={{fontSize: 16}}><i className="fa fa-folder-open" />&nbsp; &nbsp;Tambah Transaksi</a></Link>
+            <Link href="/admin/tambah-transaksi"><a className="dropdown-item" style={{fontSize: 16}}><i className="fa fa-folder-open" />&nbsp; &nbsp;Tambah Peminjaman</a></Link>
             <Link href="/admin/tambah-buku"><a className="dropdown-item" style={{fontSize: 16}}><i className="fa fa-book" />&nbsp; &nbsp;Tambah Buku</a></Link>
             <Link href="/admin/tambah-klasifikasi"><a className="dropdown-item" style={{fontSize: 16}}><i className="fa fa-book" />&nbsp; &nbsp;Tambah Klasifikasi Buku</a></Link>
             <Link href="/admin/tambah-denda"><a className="dropdown-item" style={{fontSize: 16}}><i className="fa fa-warning" />&nbsp; &nbsp;Tambah Denda</a></Link>
@@ -42,7 +42,7 @@ export default function Side() {
           <a className="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style={{color: 'rgb(255,255,255)', fontSize: 18}}><i className="fas fa-eye" style={{fontSize: 18}} />&nbsp;Lihat Data</a>
           <div className="dropdown-menu">
 
-          <Link href='/admin/data-transaksi'><a className="dropdown-item"  style={{fontSize: 16}}><i className="fa fa-folder-open" />&nbsp; Data Transaksi Buku</a></Link>
+          <Link href='/admin/data-transaksi'><a className="dropdown-item"  style={{fontSize: 16}}><i className="fa fa-folder-open" />&nbsp; Data Peminjaman Buku</a></Link>
           <Link href ="/admin/data-denda"><a className="dropdown-item" style={{fontSize: 16}}><i className="fa fa-folder" />&nbsp; Data Denda</a></Link>
           <Link href="/admin/data-siswa"><a className="dropdown-item" href="" style={{fontSize: 16}}><i className="fa fa-user" />&nbsp; &nbsp;Data Siswa</a></Link>
           <Link href="/admin/data-buku"><a className="dropdown-item"  style={{fontSize: 16}}><i className="fa fa-book" />&nbsp; &nbsp;Data Buku</a></Link>

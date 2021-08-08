@@ -63,7 +63,8 @@ export default function updateDenda() {
                         <tr>
                             <td width={25} align="center"><img
                                 src="/smk.png" style={{ width: '100px' }} /></td>
-                            <td width={50} align="center"><h2>Kartu Anggota Perpustakaan</h2><br /><h2>SMK Nurut Taqwa</h2></td>
+                            <td width={50} align="center"><h2>Kartu Anggota Perpustakaan</h2><br /><h2>SMK Nurut Taqwa</h2><br/>
+                            <span><b>Petugas Perpustakaan </b>: +62 812 3279 0730 (Bu Reni)</span></td>
                             <td width={5} align="center" >
                                 <img className="barcode"
                                     jsbarcode-value={nis}

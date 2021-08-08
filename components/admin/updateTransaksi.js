@@ -201,14 +201,14 @@ export default function updateTransaksi() {
   return (
     <div>
       <div className="container-fluid">
-        <h3 className="text-dark mb-4">Update Transaksi</h3>
+        <h3 className="text-dark mb-4">Update Peminjaman</h3>
         <div className="row mb-3">
           <div className="col-lg-8">
             <div className="row">
               <div className="col">
                 <div className="card shadow mb-3">
                   <div className="card-header py-3">
-                    <p className="text-primary m-0 fw-bold">Update Transaksi</p>
+                    <p className="text-primary m-0 fw-bold">Update Peminjaman</p>
                   </div>
                   <div className="card-body">
                     <form id="Form-Transaksi" onSubmit={submitHandler}>
