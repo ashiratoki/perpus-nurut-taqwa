@@ -181,7 +181,7 @@ export default function updateKlasifikasi() {
               <div className="col-lg-8">
                 <div className="row">
                   <div className="col" style={{ width: '489.328px' }}>
-                    <div className="card shadow mb-3" style={{ width: '516.328px' }}>
+                    <div className="card shadow mb-3" style={{ width: '800px' }}>
                       <div className="card-header py-3">
                         <p className="text-primary m-0 fw-bold">Update Data Klasifikasi Buku</p>
                       </div>

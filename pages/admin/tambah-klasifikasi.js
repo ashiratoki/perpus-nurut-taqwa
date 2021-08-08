@@ -137,12 +137,12 @@ export default function TambahBuku() {
         <div id="content">
 
           <div className="container-fluid">
-            <h3 className="text-dark mb-4">Tambah Data Buku</h3>
+            <h3 className="text-dark mb-4">Tambah Data Klasifikasi</h3>
             <div className="row mb-3">
               <div className="col-lg-8">
                 <div className="row">
                   <div className="col" style={{ width: '489.328px' }}>
-                    <div className="card shadow mb-3" style={{ width: '516.328px' }}>
+                    <div className="card shadow mb-3" style={{ width: '800px' }}>
                       <div className="card-header py-3">
                         <p className="text-primary m-0 fw-bold">Tambah Klasifikasi</p>
                       </div>
