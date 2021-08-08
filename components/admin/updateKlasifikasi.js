@@ -64,11 +64,11 @@ export default function updateKlasifikasi() {
     let alert = document.getElementById('checkErrorNoKlasifikasi')
     const data = await fetch(`${http}://${host}/api/no_klasifikasi?no_klasifikasi=${value}`)
     const hasil = await data.json()
-    if(arrNK.length >= 9 && (arrAlphabet.indexOf(arrNK[0])>-1) && arrNK[4] == '.' 
-        && (arrAlphabet.indexOf(arrNK[6])>-1) && (arrAlphabet.indexOf(arrNK[7])>-1) && (arrAlphabet.indexOf(arrNK[8])>-1)
-        && (arrNumber.indexOf(arrNK[1])>-1) && (arrNumber.indexOf(arrNK[2])>-1) && (arrNumber.indexOf(arrNK[3])>-1)
-        && (arrNumber.indexOf(arrNK[5])>-1)
-        ){
+    // if(arrNK.length >= 4 && (arrAlphabet.indexOf(arrNK[0])>-1) && arrNK[4] == '.' 
+    //     // && (arrAlphabet.indexOf(arrNK[6])>-1) && (arrAlphabet.indexOf(arrNK[7])>-1) && (arrAlphabet.indexOf(arrNK[8])>-1)
+    //     // && (arrNumber.indexOf(arrNK[1])>-1) && (arrNumber.indexOf(arrNK[2])>-1) && (arrNumber.indexOf(arrNK[3])>-1)
+    //     // && (arrNumber.indexOf(arrNK[5])>-1)
+    //     ){
       setNoKlasifikasi(value)
       if (hasil.length >= 1 && value != no_klasifikasi_lama) {
         alert.innerHTML = (`No. Klasifikasi ${value} sudah terdaftar`)
@@ -77,11 +77,11 @@ export default function updateKlasifikasi() {
         setNoKlasifikasi(value)
         alert.innerHTML = ''
       }
-    }
-    else{
-      setNoKlasifikasi(value)
-      alert.innerHTML = ('Format Penulisan No.Klasifikasi Salah, Mohon untuk diperbaiki, Contoh Penulisan : P629.4SUR')
-    } 
+    // }
+    // else{
+    //   setNoKlasifikasi(value)
+    //   alert.innerHTML = ('Format Penulisan No.Klasifikasi Salah, Mohon untuk diperbaiki, Contoh Penulisan : P629.4SUR')
+    // } 
   }
 
   async function getGambar(no_klasifikasi) {
