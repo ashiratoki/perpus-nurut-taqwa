@@ -275,7 +275,7 @@ export default function TambahTransaksi() {
                           </div>
                         </div>
                         <div className="col">
-                          <div className="mb-3"><label className="form-label" htmlFor="email"><strong>No Index Buku</strong></label>
+                          <div className="mb-3"><label className="form-label" htmlFor="email"><strong>No Induk Buku</strong></label>
                             <input
                               className="form-control"
                               type="text"

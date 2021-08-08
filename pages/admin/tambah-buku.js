@@ -149,7 +149,7 @@ export default function TambahBuku() {
                         <form onSubmit={submitHandler}>
                           <div className="row">
                             <div className="col">
-                              <div className="mb-3"><label className="form-label" htmlFor="index_buku"><strong>No Index Buku</strong>&nbsp;<br /></label>
+                              <div className="mb-3"><label className="form-label" htmlFor="index_buku"><strong>No Induk Buku</strong>&nbsp;<br /></label>
                                 <input
                                   className="form-control"
                                   type="text"

@@ -107,7 +107,7 @@ export default function tableBuku() {
         <thead>
           <tr>
             <th style={{ width: 56 }}>No</th>
-            <th>No Index Buku</th>
+            <th>No Induk Buku</th>
             <th>No Klasifikasi Buku</th>
             <th>Judul Buku</th>
             <th>Pengarang</th>

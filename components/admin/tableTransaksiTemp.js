@@ -59,7 +59,7 @@ export default function tableTransaksiTemp(){
               <tr>
                 <th style={{width: 'auto'}}>No</th>
                 <th>NIS</th>
-                <th>No Index Buku</th>
+                <th>No Induk Buku</th>
                 <th>No Klasifikasi</th>
                 <th>Judul</th>
                 <th>Tgl-Pinjam</th>

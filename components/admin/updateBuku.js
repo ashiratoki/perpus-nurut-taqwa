@@ -151,7 +151,7 @@ export default function updateTransaksi() {
                     <form id="Form-Transaksi" onSubmit={submitHandler}>
                       <div className="row">
                         <div className="col">
-                          <div className="mb-3"><label className="form-label" htmlFor="username"><strong>No. Index Buku</strong><br /></label>
+                          <div className="mb-3"><label className="form-label" htmlFor="username"><strong>No. Induk Buku</strong><br /></label>
                             <input
                               className="form-control"
                               type="text"

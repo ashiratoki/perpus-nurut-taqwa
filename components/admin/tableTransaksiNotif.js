@@ -108,7 +108,7 @@ export default function tableTransaksi() {
             <th>No Telp.</th>
             <th>Jurusan</th>
             <th>Angkatan</th>
-            <th>Index Buku</th>
+            <th>No. Induk Buku</th>
             <th>No Klasifikasi</th>
             <th>Tgl-Pinjam</th>
             <th>Tgl-Tempo</th>

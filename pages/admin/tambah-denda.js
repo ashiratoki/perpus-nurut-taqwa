@@ -177,7 +177,7 @@ export default function TambahDenda(){
                           <p id="checkErrorNis" style={{ color: 'red' }}></p>
                         </div>
                         <div className="col">
-                          <div className="mb-3"><label className="form-label" htmlFor="email"><strong>No Index Buku</strong><br /></label>
+                          <div className="mb-3"><label className="form-label" htmlFor="email"><strong>No Induk Buku</strong><br /></label>
                           <input 
                             className="form-control" 
                             type="text" 

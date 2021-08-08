@@ -107,7 +107,7 @@ export default function tableDenda() {
             <th>No Telp.</th>
             <th>Jurusan</th>
             <th>Angkatan</th>
-            <th>No Index Buku</th>
+            <th>No Induk Buku</th>
             <th>Tanggal Tempo</th>
             <th>Tanggal Terlambat</th>
             <th>Denda</th>
