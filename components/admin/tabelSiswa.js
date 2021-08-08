@@ -132,6 +132,8 @@ export default function tableSiswa() {
                             <td><div className="btn-group-vertical">
                                 <Link href={`/admin/update-siswa?nis=${tblDat.nis_siswa}&nama=${tblDat.nama}&no_telp=${tblDat.no_telp}&jenis_kelamin=${tblDat.jenis_kelamin}&jurusan=${tblDat.jurusan}&angkatan=${tblDat.angkatan}&username=${tblDat.username}&password=${tblDat.password}&nisLama=${tblDat.nis}`}
                                 ><button type="button" className="btn btn-primary mb-2">Update</button></Link>
+                                <Link href={`/admin/kartu-anggota?nis=${tblDat.nis_siswa}&nama=${tblDat.nama}&no_telp=${tblDat.no_telp}&jenis_kelamin=${tblDat.jenis_kelamin}&jurusan=${tblDat.jurusan}&angkatan=${tblDat.angkatan}&username=${tblDat.username}&password=${tblDat.password}&nisLama=${tblDat.nis}`}
+                                ><button type="button" className="btn btn-success mb-2 text-white">Cetak</button></Link>
                                 <button className="btn btn-primary"
                                     disabled={deleting}
                                     value={tblDat.nis_siswa}

@@ -136,7 +136,7 @@ export default function tableKlasifikasi() {
               {/* <td><Moment format="DD/MM/YYYY">{tblDat.tgl_kembali}</Moment></td> */}
               <td><div className="btn-group-vertical btn-group-sm">
                 <Link
-                  href={`/admin/update-klasifikasi?no_klasifikasi=${tblDat.no_klasifikasi}&judul=${tblDat.judul}&pengarang=${tblDat.pengarang}&penerbit=${tblDat.penerbit}&tahun_terbit=${tblDat.tahun_terbit}&stok=${tblDat.stok}&tersedia=${tblDat.tersedia}&rak=${tblDat.rak}&baris=${tblDat.baris}&id=${tblDat.id}&no_klasifikasi_lama=${tblDat.no_klasifikasi}&gambar=${tblDat.gambar}`}
+                  href={`/admin/update-klasifikasi?no_klasifikasi=${tblDat.no_klasifikasi}&judul=${tblDat.judul}&pengarang=${tblDat.pengarang}&penerbit=${tblDat.penerbit}&tahun_terbit=${tblDat.tahun_terbit}&stok=${tblDat.stok}&tersedia=${tblDat.tersedia}&rak=${tblDat.rak}&baris=${tblDat.baris}&id=${tblDat.id}&no_klasifikasi_lama=${tblDat.no_klasifikasi}`}
                 ><button type="button" className="btn btn-primary mb-2">Update</button></Link>
                 <button className="btn btn-primary"
                   disabled={deleting}
