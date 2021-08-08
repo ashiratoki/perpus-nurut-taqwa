@@ -69,11 +69,11 @@ export default function updateTransaksi() {
       (arrAlphabet.indexOf(arrNK[6]) > -1), (arrAlphabet.indexOf(arrNK[7]) > -1), (arrAlphabet.indexOf(arrNK[8]) > -1),
       (arrNumber.indexOf(arrNK[1]) > -1), (arrNumber.indexOf(arrNK[2]) > -1), (arrNumber.indexOf(arrNK[3]) > -1),
       (arrNumber.indexOf(arrNK[5]) > -1))
-    if (arrNK.length >= 9 && (arrAlphabet.indexOf(arrNK[0]) > -1) && arrNK[4] == '.'
-      && (arrAlphabet.indexOf(arrNK[6]) > -1) && (arrAlphabet.indexOf(arrNK[7]) > -1) && (arrAlphabet.indexOf(arrNK[8]) > -1)
-      && (arrNumber.indexOf(arrNK[1]) > -1) && (arrNumber.indexOf(arrNK[2]) > -1) && (arrNumber.indexOf(arrNK[3]) > -1)
-      && (arrNumber.indexOf(arrNK[5]) > -1)
-    ) {
+    // if (arrNK.length >= 9 && (arrAlphabet.indexOf(arrNK[0]) > -1) && arrNK[4] == '.'
+    //   && (arrAlphabet.indexOf(arrNK[6]) > -1) && (arrAlphabet.indexOf(arrNK[7]) > -1) && (arrAlphabet.indexOf(arrNK[8]) > -1)
+    //   && (arrNumber.indexOf(arrNK[1]) > -1) && (arrNumber.indexOf(arrNK[2]) > -1) && (arrNumber.indexOf(arrNK[3]) > -1)
+    //   && (arrNumber.indexOf(arrNK[5]) > -1)
+    // ) {
       if (hasil.length == 0 && value != no_klasifikasi_lama) {
         alert.innerHTML = (`No. Klasifikasi ${value} tidak ada, pastikan menggunakan No. Klasifikasi yang sudah ada`)
         setNoKlasifikasi('')
@@ -81,11 +81,11 @@ export default function updateTransaksi() {
         setNoKlasifikasi(value)
         alert.innerHTML = ''
       }
-    }
-    else {
-      setNoKlasifikasi(value)
-      alert.innerHTML = ('Format Penulisan No.Klasifikasi Salah, Mohon untuk diperbaiki, Contoh Penulisan : P629.4SUR')
-    }
+    // }
+    // else {
+    //   setNoKlasifikasi(value)
+    //   alert.innerHTML = ('Format Penulisan No.Klasifikasi Salah, Mohon untuk diperbaiki, Contoh Penulisan : P629.4SUR')
+    // }
   }
 
   async function checkNoIndexBuku(value) {
