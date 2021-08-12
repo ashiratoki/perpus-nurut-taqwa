@@ -175,7 +175,7 @@ export default function header() {
           <li className="nav-item dropdown no-arrow">
 
             <div className="nav-item dropdown no-arrow">
-              <a className="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span className="d-none d-lg-inline me-2 text-gray-600 small">{user.nama} </span><i className="fas fa-user-cog" style={{fontSize: 24, color:'black'}} /></a>
+              <a className="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span className="d-none d-lg-inline me-2 text-gray-600 small">Admin </span><i className="fas fa-user-cog" style={{fontSize: 24, color:'black'}} /></a>
               <div className="dropdown-menu shadow dropdown-menu-end animated--grow-in">
                 <div />
                 <div className="dropdown-item ">
